@@ -41,15 +41,11 @@
     &:hover {
             color: $accent-text-color;
         }
-        
+        &:active {
+            color: $accent-text-color;
+        }
+     
 
-}
-
-
-
-
-&:active {
-    color: $accent-text-color;
 }
 
 .site-nav__link--current {
