@@ -10,7 +10,7 @@
     --address-text-color: rgba(255, 255, 255, 0.6);
     --footer-hero-color: #2F303A;
     --background-button-color: #f5f4fa;
-    --linear-gradient-color: ;
+   
     --shadow-color: rgba(0, 0, 0, 0.15);
     --border-bottom: #ECECEC;
     --overlay-background: rgba(47, 48, 58, 0.4);
@@ -155,7 +155,7 @@ header {
     border-radius: 2px;
     background-color: var(--accent-text-color);
 }
-/*ПРОВЕРИТЬ!!!*/
+
 .site-nav__list .site-nav__item {
     color: var(--accent-text-color);
     position: relative;
