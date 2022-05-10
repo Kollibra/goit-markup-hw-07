@@ -1,8 +1,14 @@
-@import "./variables";
-@import "./logo";
-@import "./header";
-@import "./address";
-@import "./subscribe";
-@import "./hero";
-
-
+@import "./utils/variables";
+@import "./components/logo";
+@import "./components/header";
+@import "./components/address";
+@import "./components/subscribe";
+@import "./components/hero";
+@import "./components/advantages-section";
+@import "./components/ourworks-section";
+@import "./components/team-section";
+@import "./components/client-section";
+@import "./components/footer";
+@import "./components/distribution-form";
+@import "./components/modal";
+@import "./components/portfolio-section";
