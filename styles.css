@@ -434,7 +434,7 @@ header {
     background-color: var(--accent-text-color);
     fill: var(--white-text-color)
 }
-.team-section__icon {
+/*.team-section__icon {
     fill: ;
 }
 .team-section__icon:hover {
@@ -555,7 +555,7 @@ header {
 .subscribe-container__link:hover {
     background-color: var(--accent-text-color);
 }
-.subscribe-container__icon {
+/*.subscribe-container__icon {
     fill: ;
 }
 .subscribe-container__icon:hover {

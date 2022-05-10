@@ -10,7 +10,11 @@ $border-bottom: #ECECEC;
 $overlay-background: rgba(47, 48, 58, 0.4);
 $color-icon: #AFB1B8;
 
-/* Контейнер */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -18,7 +22,6 @@ $color-icon: #AFB1B8;
     padding-left: 15px;
     padding-right: 15px;
 }
-
 ul {
     list-style: none;
     margin: 0;
@@ -33,7 +36,6 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-
 h1,
 h2,
 h3,
@@ -42,13 +44,11 @@ p {
     margin-top: 0;
     margin-bottom: 0;
 }
-
-$img {
+img {
     max-width: 100%;
     height: auto;
     display: block;
 }
-
 .section {
     padding-top: 94px;
     padding-bottom: 94px;

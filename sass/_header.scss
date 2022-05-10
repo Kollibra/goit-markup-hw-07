@@ -1,0 +1,127 @@
+.header {
+    border-bottom: 1px solid $border-bottom;
+    &-container {
+            display: flex;
+            align-items: center;
+            margin-right: auto;
+            margin-left: auto;
+            width: 1200px;
+            padding-left: 15px;
+            padding-right: 15px
+        }
+}
+
+
+.site-nav__list {
+    display: flex;
+}
+.site-nav__list .site-nav__item {
+    color: $accent-text-color;
+    position: relative;
+}
+
+.site-nav__item {
+    margin-right: 50px;
+    &:last-child {
+            margin-right: 0;
+        }
+}
+
+.site-nav__link {
+    color: var(--title-text-color);
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+            color: $accent-text-color;
+        }
+        
+
+}
+
+
+
+
+&:active {
+    color: $accent-text-color;
+}
+
+.site-nav__link--current {
+    display: block;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--accent-text-color);
+}
+.site-nav__link--current::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    border: 2px solid var(--accent-text-color);
+    border-radius: 2px;
+    background-color: var(--accent-text-color);
+}
+
+
+/* Контакты хедер */
+.site-contact {
+    display: flex;
+    margin-left: auto;
+}
+
+.site-contact .site-contact__item+.site-contact__item {
+    margin-left: 50px;
+}
+
+.site-contact__link {
+    display: flex;
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.site-contact__link:hover,
+.site-contact__link:focus {
+    color: var(--accent-text-color);
+}
+
+.site-contact__mail {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-contact__mail {
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-contact__pfon {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-contact__pfon:hover {
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
