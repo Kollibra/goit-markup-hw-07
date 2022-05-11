@@ -2,7 +2,6 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
 .client-section__title {
     color: $title-text-color;
     font-size: 36px;
@@ -10,12 +9,10 @@
     text-align: center;
     margin-bottom: 50px;
 }
-
 .client-section__list {
     display: flex;
     justify-content: space-between;
 }
-
 .client-section__image {
     display: flex;
     align-items: center;
@@ -26,17 +23,15 @@
     color: $color-icon;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+            color: $accent-text-color;
+            border: 1px solid $accent-text-color
+        }
 }
-
-.client-section__image:hover {
-    color: $accent-text-color;
-    border: 1px solid $accent-text-color
-}
-
 .client-section__icon {
     fill: currentColor;
+    &:hover {
+            fill: currentColor;
+        }
 }
 
-.client-section__icon:hover {
-    fill: currentColor;
-}
