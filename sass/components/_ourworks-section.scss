@@ -5,7 +5,6 @@
     padding-left: 15px;
     padding-right: 15px;
 }
-
 .ourworks-container__title {
     color: $title-text-color;
     font-size: 36px;
@@ -13,24 +12,19 @@
     text-align: center;
     margin-bottom: 50px;
 }
-
 .ourworks-container__list {
     display: flex;
     flex-wrap: wrap;
 }
-
 .ourworks-container__list .ourworks-container__item {
     width: 370px
 }
-
 .ourworks-container__list .ourworks-container__item+.ourworks-container__item {
     margin-left: 30px;
 }
-
 .ourworks-container__image {
     position: relative;
 }
-
 .ourworks-container__label {
     position: absolute;
     width: 100%;
@@ -39,7 +33,6 @@
     bottom: 0;
     left: 0;
 }
-
 .ourworks-container__text {
     display: block;
     line-height: 1.14;
