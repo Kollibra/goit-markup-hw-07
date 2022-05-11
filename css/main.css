@@ -656,6 +656,20 @@ img {
           justify-content: center;
 }
 
+.distribution-form__input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2F303A;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-right: 12px;
+}
+
 .distribution-container {
   margin-left: auto;
 }
@@ -669,20 +683,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-
-.distribution-form__input {
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  padding-left: 16px;
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #2F303A;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  margin-right: 12px;
 }
 
 .distribution-button {
